@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Website</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+   
+   <!-- Creating the header -->
+   <div class="container">
+       <header>
+           <div class="logo">
+               <a href="../index.html">
+                   <img src="../images/citi_logo.png" alt="Logo">
+               </a>
+           </div> <!-- Logo -->
+           <div class="search">
+               <form>
+                   <input type="search" name="s" placeholder="Search site..">
+                   <input type="submit" value=">">
+               </form>
+           </div> <!-- Search bar -->
+           <div class="clearfix"></div> <!-- the div with class clearfix is used only to fix the float of the other two classes logo and search. -->
+           
+           <!-- Creating Nav menu, with a drop down. -->
+           <nav class="main-menu">
+               <ul>
+                   <li><a href="../index.html">Home</a></li>
+                   <li><a href="../about.html">About</a></li>
+                   <li><a href="#">Services</a>
+                       <ul class="drop">
+                           <li><a href="service-one.html">Service one</a></li>
+                           <li><a href="service-two.html">Service two</a></li>
+                           <li><a href="service-three.html">Service three</a></li>
+                       </ul>
+                   </li>
+                   <li><a href="../products.html">Products</a></li>
+                   <li><a href="../contact.html">Contact</a></li>
+               </ul>
+           </nav> <!-- Nav -->
+       </header> <!-- Header -->
+       
+       <!-- Adding content to page -->
+       <section class="content-holder">
+           <article class="content">
+               <main>
+                   <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                   Inventore temporibus maiores vero velit reprehenderit iste aliquam ut! 
+                   Nostrum fuga nesciunt commodi consectetur, 
+                   eligendi cupiditate molestias dolorem. Quis nemo voluptas incidunt?
+                   </p>
+                   <img src="../images/source.jpeg" alt="Service two">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                   Inventore temporibus maiores vero velit reprehenderit iste aliquam ut! 
+                   Nostrum fuga nesciunt commodi consectetur, 
+                   eligendi cupiditate molestias dolorem. Quis nemo voluptas incidunt?
+                   </p>
+               </main>
+           </article> <!-- Content -->
+           
+           <!-- Creating the sidebar -->
+           <aside class="sidebar">
+               <div>
+                   <h3>Widget</h3>
+                   <ul>
+                       <li><a href="#">2018</a></li>
+                       <li><a href="#">2019</a></li>
+                       <li><a href="#">2020</a></li>
+                   </ul>
+               </div>
+           </aside> <!-- Sidebar -->
+           <div class="clearfix"></div>
+       </section> <!-- Coontent holder -->
+       
+       <!-- Building page footer -->
+       <footer class="main-footer">
+           <div class="footer-box">
+               <h3>Footer Menu</h3>
+               <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#">Products</a></li>
+                   <li><a href="#">Contact</a></li>
+               </ul>
+           </div>
+           <div class="footer-box">
+               <h3>Footer Menu</h3>
+               <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#">Products</a></li>
+                   <li><a href="#">Contact</a></li>
+               </ul>
+           </div>
+           <div class="footer-box">
+               <h3>Footer Menu</h3>
+               <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#">Products</a></li>
+                   <li><a href="#">Contact</a></li>
+               </ul>
+           </div>
+           <div>
+               <adress>
+                   <h3>Company Name</h3>
+                   <p>#100, Someplace, Somewhere, 59590</p>
+                   <p>Mail: <a href="mailto:contact@someone.com">contact@someone.com</a></p> <!-- mailto: sender mail fra link -->
+                   <p>Tlf: <a href="tel:99889988">99889988</a></p> <!-- tel: ringer opp fra mob/data -->
+               </adress> <!-- Adress -->
+           </div>
+           <div class="prefix"></div>
+       </footer> <!-- Footer -->
+       
+       <!-- Adding Copyright -->
+       <div class="copy">
+           <p><small>Copyright &copy; 2020. All rights reserved.</small></p> <!-- small, makes the p text smaller -->
+       </div>
+   </div> 
+
+<!-- The two scripts here are for the Image Slider.. from "https://jquery.malsup.com/cycle2/demo/basic.php" -->    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="js/jquery.cycle2.js"></script> <!-- Second script was not working and had to DL this from github resp and add to project.. -->
+</body>
+</html>
+
